@@ -1,0 +1,46 @@
+.landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome h1 {
+    line-height: 1.5;
+  }
+  .startQuiz {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-color: #cbd5e0;
+    width: 25rem;
+    padding: 1.2rem;
+  }
+  .startQuiz p {
+    color: #2d3748;
+    letter-spacing: 1px;
+    font-family: "Gotham-Book", sans-serif;
+  }
+  .startQuiz button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    font-size: 0.75rem;
+    color: #e2e8f0;
+    background-color: #171923;
+    border-color: #171923;
+    border-width: 1.5px;
+  }
+  

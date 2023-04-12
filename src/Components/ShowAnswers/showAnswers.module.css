@@ -1,0 +1,38 @@
+.showAnswers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .showAnswers h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .quizAnswer {
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    font-size: 24px;
+    border: 1px solid;
+    border-color: #cbd5e0;
+    min-width: 80%;
+  }
+  .quizAnswer h5 {
+    line-height: 3px;
+    letter-spacing: 1.2px;
+  }
+  .showAnswers .answers {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quizAnswer p {
+    margin: 1rem 0;
+  }
+  .showAnswers .correct{
+    color: green;
+  }
+  .showAnswers .wrong{
+    color: red;
+  }

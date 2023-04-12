@@ -1,0 +1,39 @@
+.answer {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0.5rem;
+    min-height: 70px;
+    width: 100%;
+    cursor: pointer;
+    background: #ffffff;
+    /* border-radius: 50px; */
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+  }
+.selected {
+    background-color: #171923;
+    color: #ffffff;
+  }
+  
+  .answerLetter {
+    background-color: aliceblue;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: rgb(68, 109, 118);
+    font-weight: bold;
+    margin-right: 20px;
+    pointer-events: none;
+  }
+  .answerText {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: 500;
+    pointer-events: none;
+  }
