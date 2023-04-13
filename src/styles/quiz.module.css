@@ -1,5 +1,4 @@
 .main {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,9 +83,6 @@
   background-color: #171923;
   cursor: pointer;
 }
-
-
-
 
 @media only screen and (max-width: 750px) {
   .main{
