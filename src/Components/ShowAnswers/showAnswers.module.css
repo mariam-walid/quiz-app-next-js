@@ -15,11 +15,10 @@
     font-size: 24px;
     border: 1px solid;
     border-color: #cbd5e0;
-    min-width: 80%;
+    width: 80%;
   }
-  .quizAnswer h5 {
-    line-height: 3px;
-    letter-spacing: 1.2px;
+  .quizAnswer .question {
+    font-weight: 600;
   }
   .showAnswers .answers {
     margin-top: 1.2rem;

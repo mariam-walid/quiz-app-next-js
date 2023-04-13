@@ -100,7 +100,7 @@ export default function Quiz({ data }) {
 
               <div className={styles.quiz}>
                 <div className={styles.questionText}>
-                  <h3>{questions[currentQuestionIndex].question}</h3>
+                  <p>{questions[currentQuestionIndex].question}</p>
                 </div>
                 <div className={styles.options}>
                   {answers.map((answer, index) => (
@@ -133,7 +133,7 @@ export default function Quiz({ data }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch("https://the-trivia-api.com/api/questions?limit=6");
+  const res = await fetch("https://the-trivia-api.com/api/questions?limit=5");
   const data = await res.json();
 
   return {

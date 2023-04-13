@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
   }
   .welcome {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem
   }
   .welcome h1 {
     line-height: 1.5;
@@ -20,13 +20,13 @@
     align-items: center;
     border: 1px solid;
     border-color: #cbd5e0;
-    width: 25rem;
+    max-width: 25rem;
     padding: 1.2rem;
   }
   .startQuiz p {
     color: #2d3748;
     letter-spacing: 1px;
-    font-family: "Gotham-Book", sans-serif;
+    font-weight: 500;
   }
   .startQuiz button {
     margin-top: 1rem;
