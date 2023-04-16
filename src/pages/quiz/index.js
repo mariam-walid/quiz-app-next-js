@@ -1,9 +1,9 @@
 import styles from "@/styles/quiz.module.css";
 import { Container } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
-import ShowAnswers from "@/Components/ShowAnswers/ShowAnswers";
+import ShowAnswers from "@/Components/ShowAnswers";
 import { shuffleAnswers } from "@/helpers/shuffleAnswers";
-import Answer from "@/Components/Answer/Answer";
+import Answer from "@/Components/Answer";
 
 export default function Quiz({ data }) {
   useEffect(() => {

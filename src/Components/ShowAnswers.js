@@ -1,4 +1,4 @@
-import styles from "@/Components/ShowAnswers/showAnswers.module.css";
+import styles from "@/styles/showAnswers.module.css";
 import { Container } from "react-bootstrap";
 
 

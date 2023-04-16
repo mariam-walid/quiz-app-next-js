@@ -1,4 +1,4 @@
-import styles from "@/Components/Answer/answer.module.css";
+import styles from "@/styles/answer.module.css";
 
 const Answer = (props) => {
   const letters = ["A", "B", "C", "D"];
